@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+	<meta http-equib="Content-Type" content="text/html; charset=UTF-8">
+	<title>Melnikoff</title>
+	<link rel="stylesheet" type="text/css" href="main/main_style_all.css">
+	<script src='./js.js'></script>
+	<script src="main/main_js.js"></script>
+
+</head>
+
+
+<body onload="start_function()"> 
+
+
+<!-- <body>  -->
+
+
+<!--Start main_container-->
+<div class='background_wrap'>
+
+<!--
+<div class = "main_content">
+-->
+	<!--/////////////////////////////////////////////////////-->
+	<!--1 - uplist-->
+	<!--/////////////////////////////////////////////////////-->
+
+
+
+
+<!-- menu list -->
+
+	<div class = "main_content_1-uplist">
+	
+
+		<!-- LOGO  -->
+
+		<div class='main_container_logo'>
+		<div class='main_container_logo_tab'>
+		<div class='main_container_logo_cell'>
+			<a href="`logo1`">
+				<div class="logo_squares">
+				<div class='main_container_logo_tab'>
+				<div class='main_container_logo_cell'>
+
+					<div class='logo_squares_color_div bg_blue'></div>
+					<div class='logo_squares_color_div bg_red'></div>
+					<div class='logo_squares_color_div bg_yellow'></div>
+					<div class='logo_squares_color_div bg_gray'></div>
+
+				</div>
+				</div>
+				</div>
+
+				<div class="logo_comp_name">
+					<span style='color:red'>M</span><span>elniko</span><span style='color:red'>ff</span>
+				</div>
+			
+			</a>
+
+		</div>
+		</div>  
+		</div>
+
+
+
+		<!-- empty block. Under absolute logo block, to provide moving uplist down during declining uplist width  -->
+
+		<div class='uplist_empty_under_logo'></div>
+	
+		<!-- uplist block  -->
+		<div class = "uplist_container">		
+			
+			<div id="list_elem_1" class ="uplist_horizontal_elem for_small_width" onmouseover="main_menu('list_elem_1','list_open',event)" onmouseout="main_menu('list_elem_1', 'list_close',event)">
+				<a href='`m1`' class="uplist_horizontal_elem_span">Home</a>
+			</div>
+
+
+			<div id="list_elem_2" class ="uplist_horizontal_elem for_small_width" onmouseover="main_menu('list_elem_2','list_open',event)" onmouseout="main_menu('list_elem_2', 'list_close',event)" onclick="main_menu('list_elem_2','click',event)">
+				<div class='uplist_horizontal_elem_head'><div class = 'triangle_container'></div><a href='`m2`' class="uplist_horizontal_elem_span">About</a></div>
+				<ul class = "ul_uplist_elements">
+					<li><a href='`m21`'>About author</a></li>
+					<li><a href='`m22`'>About project</a></li>
+					<li><a href='`m23`'>About products</a></li>
+					<li><a href='`m24`'>Principles</a></li>
+					<li><a href='`m25`'>For investors</a></li>
+					<li><a href='`m26`'>News</a></li>
+				</ul>
+			</div>
+
+
+			<div id="list_elem_3" class ="uplist_horizontal_elem for_small_width" onmouseover="main_menu('list_elem_3','list_open',event)" onmouseout="main_menu('list_elem_3', 'list_close',event)" onclick="main_menu('list_elem_3','click',event)">
+				<div class='uplist_horizontal_elem_head'><div class = 'triangle_container'></div><a class="uplist_horizontal_elem_span" href='`m3`' >Articles</a></div>	
+				<ul class = "ul_uplist_elements">
+					<li><a href='`m31`'>IT area</a></li>
+					<li><a href='`m32`'>Banking</a></li>
+					<li><a href='`m33`'>Machine Learning</a></li>
+				</ul>
+			</div>
+
+
+			<div id="list_elem_4" class ="uplist_horizontal_elem" onmouseover="main_menu('list_elem_4','list_open',event)" onmouseout="main_menu('list_elem_4', 'list_close',event)" onclick="main_menu('list_elem_4','click',event)">
+				<div class='uplist_horizontal_elem_head'><div class = 'triangle_container'></div><a href='`m4`' class="uplist_horizontal_elem_span">WatchBoard</a></div>
+
+				<ul class = "ul_uplist_elements">
+					<li><a href='`m41`'>About</a></li>
+					<li><a href='`m42`'>How to buy</a></li>
+					<li><a href='`m43`'>Goto DEMO mode</a></li>
+				</ul>
+			</div>
+
+
+			<div id="list_elem_5" class ="uplist_horizontal_elem for_small_width" onmouseover="main_menu('list_elem_5','list_open',event)" onmouseout="main_menu('list_elem_5', 'list_close',event)">
+				<div class='uplist_horizontal_elem_head uplist_last_elem'>
+				<a href='`m5`' class="uplist_horizontal_elem_span">Video</a></div>
+			</div>
+	
+		</div>  
+		<!--end uplist_container-->
+	
+	</div>
+	<!--end main_content_(1)uplist-->
+
+
+	<!--/////////////////////////////////////////////////////-->
+	<!--2 - fotos-->
+	<!--/////////////////////////////////////////////////////-->
+
+	<div class='background_for_img'>
+		<div></div>  <!-- to provide min-height in mozila  -->
+	</div>
+
+	<div class = "main_content_2-fotos">
+		<!--  text per image  -->
+		<span class='main_slider_text_container_span'>I have made it 1 !</span>
+		<span class='main_slider_text_container_span'>I have made it 2 !</span>
+		<span class='main_slider_text_container_span'>I have made it 3 !</span>
+
+		
+
+
+		<!-- progress bar  -->
+		<div class = 'main_slider_progress_bar_container'>
+
+		</div>		
+
+		<!-- vertical white line  -->
+		<div class='img_slider_vertical_line'>
+			<!-- buttons left and right for img scroll  -->
+	
+			<div class="main_slider_button_left"><img class='main_slider_button_left_pointer' src='`main_slider_left_scroll`'></div>
+			<div class="main_slider_button_right"><img class='main_slider_button_right_pointer' src='`main_slider_right_scroll`'></div>
+
+
+		</div>
+
+		<!-- img list scrolling -->
+		
+		<div class='main_slider_img_container'>
+			<div class='img_text_container'>
+			</div>
+
+			<!--MAIN_SLIDER_IMG-->
+		
+		</div>
+	
+	</div>
+
+
+
+
+
+
+<div class='container_for_34_column'>  <!-- it is ness to vertically align quite below img -->
+
+
+
+	<!--/////////////////////////////////////////////////////-->
+	<!--3 - left_column-->
+	<!--/////////////////////////////////////////////////////-->
+
+	<div class = "main_content_3-leftcolumn">
+		<div class='paper_shadow'>
+	
+		<div class='paper_upper_block'>
+			<table>
+				<td>
+				<span>Brief about Project</span>
+				</td>
+			</table>
+		</div>
+
+
+		<!-- first description block  -->
+		<div class='paper_title'>
+			<table><td><span>Авторский проект</span></td></table>
+		</div>
+
+		<div class='paper_text'>
+			<table><td><span>Проект является авторским, полностью создан одним человеком как результат многолетней работы, проб, ошибок. Одну из ключевых причин вывода проекта в просторы Интернета можно сформулировать как «отдать долг интернету», ибо часть знаний пришли из Интернета — в Интернет должны уйти для других.
+</span></td></table>
+		</div>
+
+		<div class='paper_small_title'>
+			<table><td><div class='paper_small_title_cyrcle'></div><a href='`p1`'>Об Авторе</a></td></table>
+		</div>
+
+
+		<div class='paper_small_title'>
+			<table><td><div class='paper_small_title_cyrcle'></div><a href='`p2`'>Об проекте (чит детально)</a></td></table>
+		</div>
+
+
+
+
+
+		<!-- second description block  -->
+
+		<div class='paper_title'>
+			<table><td><span>Цели</span></td></table>
+		</div>
+
+		<div class='paper_text'>
+			<table><td><span>Главные цели, которые несет проект:
+					<p>- реализация собственного атворского продукта — анатилической системы для топ-менеджмента WATCH BOARD 
+					<p>- содействие в професиональном развити специалистов имеющих желание и хватку путем размещения статьей, видео-обучающего материала.
+		
+
+			</span></td></table>
+		</div>
+
+
+
+		<div class='paper_small_title'>
+			<table><td><div class='paper_small_title_cyrcle'></div><a href='`p3`'>Система WATCHBOARD</a></td></table>
+		</div>
+
+		<div class='paper_small_title'>
+			<table><td><div class='paper_small_title_cyrcle'></div><a href='`p4`'>Ценности</a></td></table>
+		</div>
+
+		<div class='paper_small_title'>
+			<table><td><div class='paper_small_title_cyrcle'></div><a href='`p5`'>Продукты</a></td></table>
+		</div>
+
+		</div> <!-- close paper shadow  -->
+
+
+
+		<!-- PRODUCTS BLOCK  -->
+
+		<div class='watchboard_container'>
+			<div class='watchboard_background_container'>
+			</div>
+
+			<div class='watchboard_titles'>
+				<table>
+				<td>			
+
+				<div class='watchboard_title_small'>
+					<span>
+					Информационно-аналитическая система для топ-менеджмента
+					</span>
+				</div>
+
+				<div class='watchboard_main_title'>
+					<span>
+					WatchBoard
+					</span>
+				</div>
+			
+				</td>
+				</table>
+			</div>
+
+
+			<a href='`w1`' class='watchboard_button'>
+				<table><td><span><table><td>Go To</td></table></span></td></table>
+			
+			</a>
+
+			<div class='watchboard_read_more'>
+				<table><td><a href='`w2`'>Read More</a></td></table>
+			</div>
+		
+
+			<div class='watchboard_white_spot'>		
+			</div>
+
+			
+
+		</div>	
+
+
+	</div>  <!-- close 3-left column  -->
+
+
+
+
+
+	<!--/////////////////////////////////////////////////////-->
+	<!--4 - right_column-->
+	<!--/////////////////////////////////////////////////////-->
+
+
+	<div class = "main_content_4-rightcolumn">
+
+		<div class='upper_line'>
+			<img src='`cinema`' class='upper_line_cinema'></img>
+			<div class='upper_line_div_title'>
+				<table>
+					<td>
+						<a href='`v1`'>All Videos</a>
+					</td>
+				</table>
+			</div>
+			
+		</div>
+
+		<div class='scroll_buttons no_select'>
+			<img class='video_scroll_button_left' src='`scroll_triangle_left`'></img>
+			<img class='video_scroll_button_right' src='`scroll_triangle_right`'></img>
+		</div>
+
+	
+		<div class='video_block_over_scroll'>   <!-- to hide scroll functionality  -->
+			<div class='video_left_opacity'>
+			</div>	
+		
+			
+			<div class='shadow_lap'></div> 
+
+		<div class='video_block'>	
+
+			<!-- video block  -->
+
+			<div class='video_item_container'>
+				
+			<!--((VIDEO_ITEM_BLOCK))-->
+
+			</div>
+		<!-- close video container  -->
+		</div>
+		<!-- close video block -->
+		</div>
+		<!-- close video block scroll -->
+
+
+
+
+		<!--  List with articles  -->
+		<div class='articles'>
+
+			<div class='top_block'>
+				
+				<a href='`a1`' class='top_block_title'>List with Articles
+				</a>				
+
+
+				<div class='article_scroll_buttons'>
+
+					<div class='article_2line_button_begin'>
+					</div>					
+
+					<div class='article_scroll_button_left'>
+						<table>
+						<td>
+						<img class='article_scroll_img' src='`article_scroll_triangle_up`'>
+						</img>
+						</td>
+						</table>
+					</div>
+				
+					<div class='article_scroll_button_right'>
+						<table>
+						<td>
+						<img class='article_scroll_img' src='`article_scroll_triangle_down`'>
+						</img>
+						</td>
+						</table>
+					</div>
+		
+					<div class='article_2line_button_end'>
+					</div>					
+		
+				</div>
+
+	
+			</div>
+
+
+			
+			<div class='article_progress_bar'>		
+				<div class='article_feel'></div>
+			</div>
+
+
+
+
+			<div class='article_block'>	
+				<div class='article_item_container'>
+					
+			
+					<div class='article_free_item'>
+					</div>
+	
+					
+					<!--((ARTICLE_ITEM_BLOCK))-->
+	
+
+				<div class='article_free_item'>
+				</div>
+
+
+				</div>
+				<!--  CLOSE ARTICLE ITEM CONTAINER -->
+
+		
+
+			</div> <!-- CLOSE ARTICLE BLOCK  -->
+
+			
+
+			<div class='end_block'>
+			</div>
+
+
+		</div>
+
+		<!-- Close list with articles  -->
+
+
+
+
+
+
+
+
+
+	</div>
+
+</div>  <!-- close container_for_34_column   -->
+
+
+
+
+	<!--/////////////////////////////////////////////////////-->
+	<!--5 -economix-->
+	<!--/////////////////////////////////////////////////////-->
+
+	<div class='main_content_45_space'>
+	</div>
+
+<!--
+	<div class = "main_content_5-economix">
+	Economix-column
+	</div>
+
+-->
+
+
+
+
+	<!--/////////////////////////////////////////////////////-->
+	<!--6 - company news-->
+	<!--/////////////////////////////////////////////////////-->
+
+	<div class = "main_content_6-compnews">
+		<div class='compnews_left_gradient'></div>
+		<div class='compnews_right_gradient'></div>
+
+		<div class='comp_news_block'>
+
+			<div class='news_title'>
+				<img src='`news_title`'></img>
+				<a href='`n1`'>All News</a>
+			</div>
+		
+
+			<div class='news_container'>
+			
+				<table>
+				
+					<!--NEWS_LINE-->
+	
+				</table>
+
+			</div>
+		</div>
+
+		<div class='comp_feedback_block'>
+			
+			<div class='compnews_middle_gradient'></div>
+			<div class='feedback_title'>
+				
+				<img src='`feedback`'></img>
+				<span>Feed Back </span>
+			</div>	
+	
+		
+			<form class='feedback_form' method='GET'>
+				<table>
+				<td>
+					<textarea class='feedback_textarea' type='text' name='feedback'>Вы можете написать пожелания или жалобы	</textarea>
+				</td>
+				</table>
+				
+				<div class='feedback_buttons_container'>
+					<input id='id_feedback_submit' class='feedback_submit' type='submit' value='Send'>
+					</input>
+
+					<input id='id_feedback_clear' class='feedback_clear' type='reset' value='Clear' hidefocus='hidefocus'>
+					</input>
+
+				</div>
+
+		
+			</form>
+
+
+		</div>
+
+
+
+
+	</div>
+
+
+
+
+
+<!--plug div to keep free place for footer-->
+<div class = "main_content_footerplug">
+</div>
+<!--End footer_plug-->
+
+<!--
+</div>   -->
+<!-- End main_container  -->
+
+
+
+
+
+
+
+
+
+<!---------------------------------------------------->
+
+<!--Start Footer-->
+<div class = "main_footer">
+	<div class='footer_white_line'>
+
+
+	<div class='footer_desc'>
+		<span>
+		<p>Contact person : Melnikov Andrii
+		<p>Contact phone : +7 985 45 44 96 3
+
+		</span>
+		
+	</div>
+
+
+
+
+
+
+</div>
+
+
+
+<!---End footer  -->
+
+
+</div> <!-- end background_wrap  -->
+
+</body>
+
+
+</html>
+
+
+
+

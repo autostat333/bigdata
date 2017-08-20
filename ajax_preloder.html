@@ -1,0 +1,152 @@
+
+
+
+/* ///////////////////////////////////////////////////////////// */
+/* AJAX PRELODER BLOCK--------------------------------------------*/
+/* ///////////////////////////////////////////////////////////// */
+
+
+
+.ajax_preloder_block
+	{
+	display:none;
+	position:fixed;
+	top:0%;
+	left:0%;
+	right:0%;
+	bottom:0%;
+
+	width:100%;
+	height:100%;
+-	border-color:red;
+-	border-style:solid;
+-	border-width:1px;
+
+	text-align:center;
+	}
+
+
+
+.ajax_preloder_block table
+	{
+	width:100%;
+	height:100%;
+	border-spacing:0px;
+	padding:0px 0px 0px 0px;
+	}
+
+
+.ajax_preloder_block table td
+	{
+	width:100%;
+	height:100%;
+	border-spacing:0px;
+	padding:0px 0px 0px 0px;
+	vertical-align:middle;
+	}
+
+
+.ajax_preloder_block_div
+	{
+
+	position:fixed;	
+
+	width:100%;
+	height:200px;
+-	border-color:red;
+-	border-style:solid;
+-	border-width:1px;
+
+	z-index:100;
+	text-align:center;
+	}
+
+.ajax_preloder_window
+	{
+	height:200px;
+	border-color:white;
+	border-style:solid;
+	border-width:2px;
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+
+	background:black;
+
+	box-shadow:0px 0px 40px black;	
+	-o-box-shadow:0px 0px 40px black;
+	-webkit-box-shadow:0px 0px 40px black;
+	-khtml-box-shadow:0px 0px 40px black;
+	-ms-box-shadow:0px 0px 40px black;
+	-moz-box-shadow:0px 0px 40px black;
+	
+	opacity:0.8;
+	}
+
+.ajax_preloder_window p
+	{
+	font-family:Helvetica,Arial;
+	font-size:30px;
+	color:white;	
+	
+	}
+
+
+
+.progress_ajax
+	{
+	height:auto;
+	width:100%;
+	text-align:center;
+	}
+
+.progress_ajax div
+	{
+	border-radius:10px;
+	background:white;
+	width:13px;
+	height:13px;
+	display:inline-block;
+	
+	margin-left:4px;
+	
+	box-shadow:1px 1px 1px black inset;	
+	-o-box-shadow:1px 1px 1px black inset;
+	-webkit-box-shadow:1px 1px 1px black inset;
+	-khtml-box-shadow:1px 1px 1px black inset;
+	-ms-box-shadow:1px 1px 1px black inset;
+	-moz-box-shadow:1px 1px 1px black inset;
+
+	
+	}
+
+
+
+
+
+
+
+<div class='ajax_preloder_block'>
+	<table>	<td>
+
+	<div class='ajax_preloder_block_div'>
+		<div class='ajax_preloder_window'>
+		<p>Please, wait a time.....
+
+			<div class='progress_ajax'>	
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+	
+		</div>
+	</div>
+	
+	</td></table>
+
+</div>
+
+
+

@@ -1,0 +1,3 @@
+
+def t():
+	print 'works'

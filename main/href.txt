@@ -1,0 +1,33 @@
+#logotip
+logo1	./index.py
+m1	./index.py
+m2	./index.py?page=content#1_menu=about;2_menu=about_author;txt=about_author
+m21	./index.py?page=content#1_menu=about;2_menu=about_author;txt=about_author
+m22	./index.py?page=content#1_menu=about;2_menu=about_project;txt=about_project
+m23	./index.py?page=content#1_menu=about;2_menu=products;txt=products
+m24	./index.py?page=content#1_menu=about;2_menu=principles;txt=principles
+m25	./index.py?page=content#1_menu=about;2_menu=for_investors;txt=for_investors
+m26	./index.py?page=content#1_menu=about;2_menu=news;txt=news_last
+m3	./index.py?page=content#1_menu=articles;2_menu=it_area;txt=it_area_last
+m31	./index.py?page=content#1_menu=articles;2_menu=it_area;txt=it_area_last
+m32	./index.py?page=content#1_menu=articles;2_menu=banking;txt=banking_last
+m33	./index.py?page=content#1_menu=articles;2_menu=machine_learning;txt=machine_learning_last
+m4	./index.py?page=content#1_menu=watchboard;2_menu=about;txt=about_watchboard
+m41	./index.py?page=content#1_menu=watchboard;2_menu=about;txt=about_watchboard
+m42	./index.py?page=content#1_menu=watchboard;2_menu=how_to_buy;txt=how_to_buy
+m43	./index.py?page=watchboard&1_menu=watchboard&2_menu=goto&txt=goto
+m5	./index.py?page=content#1_menu=video;2_menu=python;txt=video_last
+p1	./index.py?page=content#1_menu=about;2_menu=about_author;txt=about_author
+p2	./index.py?page=content#1_menu=about;2_menu=principles;txt=principles
+p3	./index.py?page=content#1_menu=about;2_menu=about_project;txt=about_project
+p4	./index.py?page=content#1_menu=about;2_menu=principles;txt=principles
+p5	./index.py?page=content#1_menu=about;2_menu=products;txt=products
+w1	./index.py?page=watchboard&1_menu=watchboard&2_menu=goto&txt=goto
+w2	./index.py?page=content#1_menu=watchboard;2_menu=about;txt=about_watchboard
+v1	./index.py?page=content#1_menu=video;2_menu=python;txt=video_last
+a1	./index.py?page=content#1_menu=articles;2_menu=it_area;txt=it_area_last
+n1	./index.py?page=content#1_menu=about;2_menu=news;txt=news_last
+slider1	./index.py?page=content#1_menu=about;2_menu=about_project;txt=about_project
+slider2	./index.py?page=content#1_menu=articles;2_menu=banking;txt=banking_last
+slider3	./index.py?page=watchboard
+
